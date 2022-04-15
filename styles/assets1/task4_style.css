@@ -1,0 +1,75 @@
+.task4_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task4_imgWrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.task4_imgWrapper img {
+    max-width: 100%;
+}
+
+.task4_line {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+}
+
+.task4_answer {
+    display: flex;
+    font-size: 20px;
+    width: 60%;
+    margin: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.task4_answer_item {
+    align-items: center;
+}
+
+.task4_answer select {
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #0AB7D3;
+    align-self: center;
+}
+
+.task4_answer1>input {
+    margin-bottom: 14px;
+}
+
+.task4_answer>p {
+    margin: 0;
+    align-self: center
+}
+
+.task4_answer_item {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.task4_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task4_chek_answer {
+    font-size: 26px;
+}
+
+.task4_play {
+    cursor: pointer;
+}
